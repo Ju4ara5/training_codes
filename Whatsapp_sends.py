@@ -1,5 +1,6 @@
 import pywhatkit
 import time
+
 # print('now is', time.strftime("%Y%m%d%h%M%S"))
 
 print('''
@@ -24,8 +25,6 @@ text_message = 'text'
 now_hour = int(time.strftime('%H'))
 now_min = int(time.strftime('%M'))
 start_time_hour = now_hour
-
-
 
 n = 0
 x = now_min + 3
@@ -58,17 +57,3 @@ print('Обязательно проверьте в брыузере!'
       ' Все ли сообщения были отправлены.'
       )
 print('####################')
-
-# pywhatkit.sendwhatmsg(phone_n
-
-# umbers[0],
-#                      text_message,
-#                      start_time_hour, start_time_min_first)
-#
-# pywhatkit.sendwhatmsg(phone_numbers[1],
-#                      text_message,
-#                      start_time_hour, start_time_min_next)
-
-
-# print(now_hour, now_min)
-# print(start_time_min)
